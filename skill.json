@@ -1,0 +1,507 @@
+{
+  "name": "lean-proving-skills",
+  "description": "Lean 4 mathematical proving techniques library - Pure knowledge-based organization",
+  "version": "1.0.0",
+
+  "usage": {
+    "template": "TEMPLATE.md - Contains format specification and complete example",
+    "reference": "knowledge/algebra/group-theory.md - Working example with one skill",
+    "format": "Problem + Core Strategy (Lean code) + Pitfalls | Related"
+  },
+
+  "categories": {
+    "algebra": {
+      "name": "Algebra",
+      "description": "Groups, rings, fields, modules, homological algebra, representation theory",
+      "path": "knowledge/algebra/"
+    },
+    "geometry": {
+      "name": "Geometry",
+      "description": "Euclidean, differential, algebraic, projective, symplectic, complex geometry",
+      "path": "knowledge/geometry/"
+    },
+    "analysis": {
+      "name": "Analysis",
+      "description": "Real, complex, functional, harmonic analysis, PDEs, operator theory",
+      "path": "knowledge/analysis/"
+    },
+    "topology": {
+      "name": "Topology",
+      "description": "Point-set, algebraic, differential topology, homotopy theory",
+      "path": "knowledge/topology/"
+    },
+    "logic": {
+      "name": "Logic",
+      "description": "Mathematical logic, type theory, model theory, proof theory",
+      "path": "knowledge/logic/"
+    },
+    "number-theory": {
+      "name": "Number Theory",
+      "description": "Elementary, algebraic, analytic number theory, arithmetic geometry",
+      "path": "knowledge/number-theory/"
+    },
+    "combinatorics": {
+      "name": "Combinatorics",
+      "description": "Enumerative, graph theory, Ramsey, extremal, algebraic combinatorics",
+      "path": "knowledge/combinatorics/"
+    },
+    "probability": {
+      "name": "Probability",
+      "description": "Probability theory, stochastic processes, martingales, ergodic theory",
+      "path": "knowledge/probability/"
+    },
+    "set-theory": {
+      "name": "Set Theory",
+      "description": "Axiomatic set theory, ordinals, cardinals, forcing, descriptive set theory",
+      "path": "knowledge/set-theory/"
+    },
+    "category-theory": {
+      "name": "Category Theory",
+      "description": "Category theory, topos theory, higher categories",
+      "path": "knowledge/category-theory/"
+    },
+    "computation": {
+      "name": "Computation Theory",
+      "description": "Computability, complexity, algorithm analysis, formal verification",
+      "path": "knowledge/computation/"
+    },
+    "optimization": {
+      "name": "Optimization",
+      "description": "Convex, discrete optimization, variational methods",
+      "path": "knowledge/optimization/"
+    },
+    "other": {
+      "name": "Other",
+      "description": "Other knowledge and techniques that don't fit into other categories",
+      "path": "knowledge/other/"
+    }
+  },
+
+  "file_index": {
+    "group-theory": {
+      "path": "knowledge/algebra/group-theory.md",
+      "category": "algebra",
+      "name": "Group Theory",
+      "skill_count": 1,
+      "keywords": ["Sylow theorems", "group actions", "composition series", "simple groups"]
+    },
+    "ring-theory": {
+      "path": "knowledge/algebra/ring-theory.md",
+      "category": "algebra",
+      "name": "Ring Theory",
+      "skill_count": 0,
+      "keywords": ["ideals", "quotient rings", "localization", "Noetherian rings"]
+    },
+    "field-theory": {
+      "path": "knowledge/algebra/field-theory.md",
+      "category": "algebra",
+      "name": "Field Theory",
+      "skill_count": 0,
+      "keywords": ["field extensions", "Galois theory", "separability", "splitting fields"]
+    },
+    "homological-algebra": {
+      "path": "knowledge/algebra/homological-algebra.md",
+      "category": "algebra",
+      "name": "Homological Algebra",
+      "skill_count": 0,
+      "keywords": ["chain complex", "exact sequence", "Ext", "Tor", "derived functors", "spectral sequences"]
+    },
+    "representation-theory": {
+      "path": "knowledge/algebra/representation-theory.md",
+      "category": "algebra",
+      "name": "Representation Theory",
+      "skill_count": 0,
+      "keywords": ["representations", "characters", "Schur's lemma", "induced representations"]
+    },
+    "module-theory": {
+      "path": "knowledge/algebra/module-theory.md",
+      "category": "algebra",
+      "name": "Module Theory",
+      "skill_count": 0,
+      "keywords": ["modules", "tensor products", "flat modules", "projective modules"]
+    },
+    "commutative-algebra": {
+      "path": "knowledge/algebra/commutative-algebra.md",
+      "category": "algebra",
+      "name": "Commutative Algebra",
+      "skill_count": 0,
+      "keywords": ["prime ideals", "Spec", "localization", "Nakayama", "Krull dimension"]
+    },
+
+    "euclidean-geometry": {
+      "path": "knowledge/geometry/euclidean-geometry.md",
+      "category": "geometry",
+      "name": "Euclidean Geometry",
+      "skill_count": 0,
+      "keywords": ["concyclic points", "radical axis", "homothety", "inversion", "angle chasing"]
+    },
+    "differential-geometry": {
+      "path": "knowledge/geometry/differential-geometry.md",
+      "category": "geometry",
+      "name": "Differential Geometry",
+      "skill_count": 0,
+      "keywords": ["manifolds", "tangent bundles", "differential forms", "connections", "curvature"]
+    },
+    "algebraic-geometry": {
+      "path": "knowledge/geometry/algebraic-geometry.md",
+      "category": "geometry",
+      "name": "Algebraic Geometry",
+      "skill_count": 0,
+      "keywords": ["varieties", "schemes", "sheaves", "morphisms", "cohomology"]
+    },
+    "projective-geometry": {
+      "path": "knowledge/geometry/projective-geometry.md",
+      "category": "geometry",
+      "name": "Projective Geometry",
+      "skill_count": 0,
+      "keywords": ["projective spaces", "homogeneous coordinates", "cross-ratio", "duality"]
+    },
+    "symplectic-geometry": {
+      "path": "knowledge/geometry/symplectic-geometry.md",
+      "category": "geometry",
+      "name": "Symplectic Geometry",
+      "skill_count": 0,
+      "keywords": ["symplectic forms", "Hamiltonian mechanics", "Darboux theorem"]
+    },
+    "complex-geometry": {
+      "path": "knowledge/geometry/complex-geometry.md",
+      "category": "geometry",
+      "name": "Complex Geometry",
+      "skill_count": 0,
+      "keywords": ["complex manifolds", "Kähler manifolds", "holomorphic forms"]
+    },
+
+    "real-analysis": {
+      "path": "knowledge/analysis/real-analysis.md",
+      "category": "analysis",
+      "name": "Real Analysis",
+      "skill_count": 0,
+      "keywords": ["measure theory", "Lebesgue integration", "convergence theorems", "Lp spaces"]
+    },
+    "complex-analysis": {
+      "path": "knowledge/analysis/complex-analysis.md",
+      "category": "analysis",
+      "name": "Complex Analysis",
+      "skill_count": 0,
+      "keywords": ["holomorphic functions", "residue theorem", "conformal mapping", "Riemann surfaces"]
+    },
+    "functional-analysis": {
+      "path": "knowledge/analysis/functional-analysis.md",
+      "category": "analysis",
+      "name": "Functional Analysis",
+      "skill_count": 0,
+      "keywords": ["Banach spaces", "Hilbert spaces", "bounded operators", "spectral theory"]
+    },
+    "harmonic-analysis": {
+      "path": "knowledge/analysis/harmonic-analysis.md",
+      "category": "analysis",
+      "name": "Harmonic Analysis",
+      "skill_count": 0,
+      "keywords": ["Fourier transform", "convolution", "maximal functions", "singular integrals"]
+    },
+    "pde-techniques": {
+      "path": "knowledge/analysis/pde-techniques.md",
+      "category": "analysis",
+      "name": "PDE Techniques",
+      "skill_count": 0,
+      "keywords": ["partial differential equations", "weak solutions", "Sobolev spaces", "regularity"]
+    },
+    "operator-theory": {
+      "path": "knowledge/analysis/operator-theory.md",
+      "category": "analysis",
+      "name": "Operator Theory",
+      "skill_count": 0,
+      "keywords": ["linear operators", "spectral theorem", "compact operators", "C*-algebras"]
+    },
+
+    "point-set-topology": {
+      "path": "knowledge/topology/point-set-topology.md",
+      "category": "topology",
+      "name": "Point-Set Topology",
+      "skill_count": 0,
+      "keywords": ["topological spaces", "continuity", "compactness", "connectedness", "separation axioms"]
+    },
+    "algebraic-topology": {
+      "path": "knowledge/topology/algebraic-topology.md",
+      "category": "topology",
+      "name": "Algebraic Topology",
+      "skill_count": 0,
+      "keywords": ["fundamental group", "homology", "cohomology", "covering spaces"]
+    },
+    "differential-topology": {
+      "path": "knowledge/topology/differential-topology.md",
+      "category": "topology",
+      "name": "Differential Topology",
+      "skill_count": 0,
+      "keywords": ["smooth manifolds", "tangent spaces", "transversality", "Morse theory"]
+    },
+    "homotopy-theory": {
+      "path": "knowledge/topology/homotopy-theory.md",
+      "category": "topology",
+      "name": "Homotopy Theory",
+      "skill_count": 0,
+      "keywords": ["homotopy groups", "fibrations", "cofibrations", "spectral sequences"]
+    },
+    "geometric-topology": {
+      "path": "knowledge/topology/geometric-topology.md",
+      "category": "topology",
+      "name": "Geometric Topology",
+      "skill_count": 0,
+      "keywords": ["manifolds", "knot theory", "3-manifolds", "4-manifolds"]
+    },
+
+    "mathematical-logic": {
+      "path": "knowledge/logic/mathematical-logic.md",
+      "category": "logic",
+      "name": "Mathematical Logic",
+      "skill_count": 0,
+      "keywords": ["propositional logic", "predicate logic", "completeness", "soundness"]
+    },
+    "type-theory": {
+      "path": "knowledge/logic/type-theory.md",
+      "category": "logic",
+      "name": "Type Theory",
+      "skill_count": 0,
+      "keywords": ["dependent types", "inductive types", "universes", "proof terms"]
+    },
+    "homotopy-type-theory": {
+      "path": "knowledge/logic/homotopy-type-theory.md",
+      "category": "logic",
+      "name": "Homotopy Type Theory",
+      "skill_count": 0,
+      "keywords": ["univalence", "higher inductive types", "identity types"]
+    },
+    "model-theory": {
+      "path": "knowledge/logic/model-theory.md",
+      "category": "logic",
+      "name": "Model Theory",
+      "skill_count": 0,
+      "keywords": ["structures", "embeddings", "elementary equivalence", "quantifier elimination"]
+    },
+    "proof-theory": {
+      "path": "knowledge/logic/proof-theory.md",
+      "category": "logic",
+      "name": "Proof Theory",
+      "skill_count": 0,
+      "keywords": ["sequent calculus", "natural deduction", "cut elimination", "proof normalization"]
+    },
+
+    "elementary-number-theory": {
+      "path": "knowledge/number-theory/elementary-number-theory.md",
+      "category": "number-theory",
+      "name": "Elementary Number Theory",
+      "skill_count": 0,
+      "keywords": ["divisibility", "modular arithmetic", "Diophantine equations", "quadratic residues"]
+    },
+    "algebraic-number-theory": {
+      "path": "knowledge/number-theory/algebraic-number-theory.md",
+      "category": "number-theory",
+      "name": "Algebraic Number Theory",
+      "skill_count": 0,
+      "keywords": ["number fields", "algebraic integers", "ideal class group", "local fields"]
+    },
+    "analytic-number-theory": {
+      "path": "knowledge/number-theory/analytic-number-theory.md",
+      "category": "number-theory",
+      "name": "Analytic Number Theory",
+      "skill_count": 0,
+      "keywords": ["prime number theorem", "Dirichlet series", "L-functions", "modular forms"]
+    },
+    "arithmetic-geometry": {
+      "path": "knowledge/number-theory/arithmetic-geometry.md",
+      "category": "number-theory",
+      "name": "Arithmetic Geometry",
+      "skill_count": 0,
+      "keywords": ["elliptic curves", "abelian varieties", "heights", "rational points"]
+    },
+
+    "enumerative-combinatorics": {
+      "path": "knowledge/combinatorics/enumerative-combinatorics.md",
+      "category": "combinatorics",
+      "name": "Enumerative Combinatorics",
+      "skill_count": 0,
+      "keywords": ["generating functions", "recurrence relations", "partitions", "permutations"]
+    },
+    "graph-theory": {
+      "path": "knowledge/combinatorics/graph-theory.md",
+      "category": "combinatorics",
+      "name": "Graph Theory",
+      "skill_count": 0,
+      "keywords": ["connectivity", "coloring", "matchings", "planarity", "random graphs"]
+    },
+    "ramsey-theory": {
+      "path": "knowledge/combinatorics/ramsey-theory.md",
+      "category": "combinatorics",
+      "name": "Ramsey Theory",
+      "skill_count": 0,
+      "keywords": ["Ramsey numbers", "van der Waerden", "Hales-Jewett", "infinite Ramsey"]
+    },
+    "extremal-combinatorics": {
+      "path": "knowledge/combinatorics/extremal-combinatorics.md",
+      "category": "combinatorics",
+      "name": "Extremal Combinatorics",
+      "skill_count": 0,
+      "keywords": ["Turán problems", "extremal set theory", "forbidden substructures"]
+    },
+    "algebraic-combinatorics": {
+      "path": "knowledge/combinatorics/algebraic-combinatorics.md",
+      "category": "combinatorics",
+      "name": "Algebraic Combinatorics",
+      "skill_count": 0,
+      "keywords": ["symmetric functions", "representation theory", "posets", "lattices"]
+    },
+    "probabilistic-method": {
+      "path": "knowledge/combinatorics/probabilistic-method.md",
+      "category": "combinatorics",
+      "name": "Probabilistic Method",
+      "skill_count": 0,
+      "keywords": ["expectation", "concentration inequalities", "lovász local lemma"]
+    },
+
+    "probability-theory": {
+      "path": "knowledge/probability/probability-theory.md",
+      "category": "probability",
+      "name": "Probability Theory",
+      "skill_count": 0,
+      "keywords": ["probability measures", "random variables", "independence", "convergence"]
+    },
+    "stochastic-processes": {
+      "path": "knowledge/probability/stochastic-processes.md",
+      "category": "probability",
+      "name": "Stochastic Processes",
+      "skill_count": 0,
+      "keywords": ["Markov chains", "Brownian motion", "Poisson processes", "stationary processes"]
+    },
+    "martingale-theory": {
+      "path": "knowledge/probability/martingale-theory.md",
+      "category": "probability",
+      "name": "Martingale Theory",
+      "skill_count": 0,
+      "keywords": ["martingales", "stopping times", "optional stopping", "convergence theorems"]
+    },
+    "ergodic-theory": {
+      "path": "knowledge/probability/ergodic-theory.md",
+      "category": "probability",
+      "name": "Ergodic Theory",
+      "skill_count": 0,
+      "keywords": ["ergodic transformations", "Birkhoff theorem", "mixing", "entropy"]
+    },
+
+    "axiomatic-set-theory": {
+      "path": "knowledge/set-theory/axiomatic-set-theory.md",
+      "category": "set-theory",
+      "name": "Axiomatic Set Theory",
+      "skill_count": 0,
+      "keywords": ["ZFC", "axioms", "well-foundedness", "regularity"]
+    },
+    "ordinals-cardinals": {
+      "path": "knowledge/set-theory/ordinals-cardinals.md",
+      "category": "set-theory",
+      "name": "Ordinals and Cardinals",
+      "skill_count": 0,
+      "keywords": ["ordinal arithmetic", "cardinal arithmetic", "cofinality", "continuum hypothesis"]
+    },
+    "forcing": {
+      "path": "knowledge/set-theory/forcing.md",
+      "category": "set-theory",
+      "name": "Forcing",
+      "skill_count": 0,
+      "keywords": ["forcing posets", "generic extensions", "independence results"]
+    },
+    "descriptive-set-theory": {
+      "path": "knowledge/set-theory/descriptive-set-theory.md",
+      "category": "set-theory",
+      "name": "Descriptive Set Theory",
+      "skill_count": 0,
+      "keywords": ["Borel sets", "analytic sets", "projective hierarchy", "determinacy"]
+    },
+
+    "category-theory": {
+      "path": "knowledge/category-theory/category-theory.md",
+      "category": "category-theory",
+      "name": "Category Theory",
+      "skill_count": 0,
+      "keywords": ["categories", "functors", "natural transformations", "limits", "adjoints"]
+    },
+    "topos-theory": {
+      "path": "knowledge/category-theory/topos-theory.md",
+      "category": "category-theory",
+      "name": "Topos Theory",
+      "skill_count": 0,
+      "keywords": ["topoi", "Grothendieck topologies", "sheaves", "subobject classifiers"]
+    },
+    "higher-category-theory": {
+      "path": "knowledge/category-theory/higher-category-theory.md",
+      "category": "category-theory",
+      "name": "Higher Category Theory",
+      "skill_count": 0,
+      "keywords": ["2-categories", "bicategories", "infinity-categories", "simplicial sets"]
+    },
+    "homological-algebra-categorical": {
+      "path": "knowledge/category-theory/homological-algebra-categorical.md",
+      "category": "category-theory",
+      "name": "Homological Algebra (Categorical)",
+      "skill_count": 0,
+      "keywords": ["abelian categories", "derived categories", "triangulated categories"]
+    },
+
+    "computability-theory": {
+      "path": "knowledge/computation/computability-theory.md",
+      "category": "computation",
+      "name": "Computability Theory",
+      "skill_count": 0,
+      "keywords": ["Turing machines", "recursive functions", "decidability", "halting problem"]
+    },
+    "computational-complexity": {
+      "path": "knowledge/computation/computational-complexity.md",
+      "category": "computation",
+      "name": "Computational Complexity",
+      "skill_count": 0,
+      "keywords": ["P vs NP", "reductions", "complexity classes", "hardness"]
+    },
+    "algorithm-analysis": {
+      "path": "knowledge/computation/algorithm-analysis.md",
+      "category": "computation",
+      "name": "Algorithm Analysis",
+      "skill_count": 0,
+      "keywords": ["time complexity", "space complexity", "correctness proofs", "invariants"]
+    },
+    "formal-verification": {
+      "path": "knowledge/computation/formal-verification.md",
+      "category": "computation",
+      "name": "Formal Verification",
+      "skill_count": 0,
+      "keywords": ["program verification", "Hoare logic", "separation logic", "refinement"]
+    },
+
+    "convex-optimization": {
+      "path": "knowledge/optimization/convex-optimization.md",
+      "category": "optimization",
+      "name": "Convex Optimization",
+      "skill_count": 0,
+      "keywords": ["convex sets", "convex functions", "duality", "KKT conditions"]
+    },
+    "discrete-optimization": {
+      "path": "knowledge/optimization/discrete-optimization.md",
+      "category": "optimization",
+      "name": "Discrete Optimization",
+      "skill_count": 0,
+      "keywords": ["integer programming", "combinatorial optimization", "branch and bound"]
+    },
+    "variational-methods": {
+      "path": "knowledge/optimization/variational-methods.md",
+      "category": "optimization",
+      "name": "Variational Methods",
+      "skill_count": 0,
+      "keywords": ["calculus of variations", "Euler-Lagrange", "direct methods"]
+    },
+
+    "other": {
+      "path": "knowledge/other/other.md",
+      "category": "other",
+      "name": "Other",
+      "skill_count": 0,
+      "keywords": ["other knowledge", "other techniques", "miscellaneous", "uncategorized"]
+    }
+  }
+}
